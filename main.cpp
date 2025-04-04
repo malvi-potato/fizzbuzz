@@ -21,7 +21,7 @@ int fizzbuzz(int n){
 
     if (n % 3 = 0)
 
-
+//Kommentar
 
     else if (n % 5 = 0)
 
