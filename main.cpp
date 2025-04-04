@@ -2,8 +2,7 @@
 
 using namespace std;
 
-
-int fizzbuzz(int n);
+void fizzbuzz(int n);
 
 int main()
 {
@@ -15,8 +14,7 @@ int main()
     return 0;
 
 }
-
-int fizzbuzz(int n){
+void fizzbuzz(int n){
 
     if(n % 3 == 0){
         cout << "fizz" << endl;
