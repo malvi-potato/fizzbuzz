@@ -8,11 +8,10 @@ int fizzbuzz(int n);
 int main()
 {
         int n;
-    while (n != 0){
         cin >> n;
         fizzbuzz(n);
 
-}
+
     return 0;
 
 }
