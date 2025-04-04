@@ -19,7 +19,7 @@ int main()
 
 int fizzbuzz(int n){
 
-    if (n % 3 = 0){
+    if(n % 3 == 0){
         cout << "fizz" << endl;
     }
 
