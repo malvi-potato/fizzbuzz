@@ -20,7 +20,9 @@ void fizzbuzz(int n){
         cout << "fizz" << endl;
     }
 
-  //  else if (n % 5 = 0)
+    else if (n % 5 == 0){
+         cout << "buzz" << endl;
+    }
 
    // else if (n % 3,5)
    else
