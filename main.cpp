@@ -11,7 +11,7 @@ int main()
     while (n != 0){
         cin >> n;
         fizzbuzz(n);
-        cout << " "<< n << endl;
+
 }
     return 0;
 
@@ -19,13 +19,15 @@ int main()
 
 int fizzbuzz(int n){
 
-    if (n % 3 = 0)
+    if (n % 3 = 0){
+        cout << "fizz" << endl;
+    }
 
-//Kommentar
+  //  else if (n % 5 = 0)
 
-    else if (n % 5 = 0)
-
-    else if (n % 3,5)
+   // else if (n % 3,5)
+   else
+        cout << " "<< n << endl;
 
 
 }
